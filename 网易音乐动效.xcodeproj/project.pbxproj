@@ -15,6 +15,8 @@
 		44BA6A1D1C2A250C00C3AD6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BA6A1B1C2A250C00C3AD6B /* LaunchScreen.storyboard */; };
 		44BA6A281C2A250C00C3AD6B /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BA6A271C2A250C00C3AD6B /* ______Tests.m */; };
 		44BA6A331C2A250C00C3AD6B /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BA6A321C2A250C00C3AD6B /* ______UITests.m */; };
+		44BA6A411C2A36C200C3AD6B /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BA6A401C2A36C200C3AD6B /* photo.png */; settings = {ASSET_TAGS = (); }; };
+		44BA6A441C2A7F8B00C3AD6B /* YLMusicBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BA6A431C2A7F8B00C3AD6B /* YLMusicBarButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		44BA6A2E1C2A250C00C3AD6B /* 网易音乐动效UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易音乐动效UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BA6A321C2A250C00C3AD6B /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		44BA6A341C2A250C00C3AD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BA6A401C2A36C200C3AD6B /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		44BA6A421C2A7F8B00C3AD6B /* YLMusicBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMusicBarButton.h; sourceTree = "<group>"; };
+		44BA6A431C2A7F8B00C3AD6B /* YLMusicBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMusicBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 		44BA6A0C1C2A250C00C3AD6B /* 网易音乐动效 */ = {
 			isa = PBXGroup;
 			children = (
+				44BA6A421C2A7F8B00C3AD6B /* YLMusicBarButton.h */,
+				44BA6A431C2A7F8B00C3AD6B /* YLMusicBarButton.m */,
+				44BA6A401C2A36C200C3AD6B /* photo.png */,
 				44BA6A101C2A250C00C3AD6B /* AppDelegate.h */,
 				44BA6A111C2A250C00C3AD6B /* AppDelegate.m */,
 				44BA6A131C2A250C00C3AD6B /* ViewController.h */,
@@ -245,6 +253,7 @@
 			files = (
 				44BA6A1D1C2A250C00C3AD6B /* LaunchScreen.storyboard in Resources */,
 				44BA6A1A1C2A250C00C3AD6B /* Assets.xcassets in Resources */,
+				44BA6A411C2A36C200C3AD6B /* photo.png in Resources */,
 				44BA6A181C2A250C00C3AD6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BA6A441C2A7F8B00C3AD6B /* YLMusicBarButton.m in Sources */,
 				44BA6A151C2A250C00C3AD6B /* ViewController.m in Sources */,
 				44BA6A121C2A250C00C3AD6B /* AppDelegate.m in Sources */,
 				44BA6A0F1C2A250C00C3AD6B /* main.m in Sources */,
@@ -498,6 +508,7 @@
 				44BA6A391C2A250C00C3AD6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44BA6A3A1C2A250C00C3AD6B /* Build configuration list for PBXNativeTarget "网易音乐动效Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				44BA6A3C1C2A250C00C3AD6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44BA6A3D1C2A250C00C3AD6B /* Build configuration list for PBXNativeTarget "网易音乐动效UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				44BA6A3F1C2A250C00C3AD6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
